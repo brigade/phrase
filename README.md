@@ -1,6 +1,8 @@
 Phrase - Android string formatting
 ==================================
 
+[![](https://jitpack.io/v/brigade/phrase.svg)](https://jitpack.io/#brigade/phrase)
+
 [![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://raw.githubusercontent.com/square/phrase/master/LICENSE.txt) [![maven](https://img.shields.io/maven-central/v/com.squareup.phrase/phrase.svg)](http://maven-repository.com/artifact/com.squareup.phrase) [![build](https://img.shields.io/travis/square/phrase.svg?style=flat)](https://travis-ci.org/square/phrase)
 
 ```java
@@ -42,23 +44,11 @@ listFormatter.format(Arrays.asList(1, 2, 3));
 Download
 --------
 
-You can download [the latest jar here][jar].
-
-You can also depend on the .jar through Maven:
-
-```xml
-<dependency>
-  <groupId>com.squareup.phrase</groupId>
-  <artifactId>phrase</artifactId>
-  <version>(insert latest version)</version>
-</dependency>
-```
-
-or through Gradle:
+You can download through Gradle:
 
 ```groovy
 dependencies {
-  compile 'com.squareup.phrase:phrase:(insert latest version)'
+  compile 'com.github.brigade:phrase:(insert latest version)'
 }
 ```
 
